@@ -1,0 +1,41 @@
+/*Synnovea Ashe Assignment for Lab 5 Main CSS file*/
+
+@import "normalize.css";
+
+@media screen and (max-width: 600px) {
+    /*grid 1 col*/
+    .grid {
+      display: grid;
+      grid-template-columns: auto;
+      background-color: #7e8f85;
+      padding: 30px;
+    }
+  }
+@media screen and (min-width: 600px) {
+    /*grid 2 col*/
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #4e554c;
+    padding: 30px;
+    }
+  }
+img{
+    width:100%;
+    display:block;
+  }
+.grid-item {
+      background-color: rgba(62, 165, 82, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      font-family:'Courier New', Courier, monospace;
+      font-size: 50px;
+      text-align: center;
+      justify-content: center;
+    }
+  
+h2 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
